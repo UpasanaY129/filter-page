@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Special Notes</title>
+    <!-- Google Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1 class="heading"><b>SPECIAL NOTES</b></h1>
+    <div class="wrapper">
+      <div id="search-container">
+        <input
+          type="search"
+          id="search-input"
+          placeholder="Search notes here.."
+        />
+        <button id="search">Search</button>
+        
+      </div>
+      <div id="buttons">
+        <button class="button-value" onclick="filterProduct('all')">All</button>
+        <button class="button-value" onclick="filterProduct('C')">
+          C
+        </button>
+        <button class="button-value" onclick="filterProduct('Java')">
+            Java
+        </button>
+        <button class="button-value" onclick="filterProduct('C++')">
+          C++
+        </button>
+        <button class="button-value" onclick="filterProduct('HTML')">
+          HTML
+        </button>
+        <button class="button-value" onclick="filterProduct('CSS')">
+          CSS
+        </button>
+        <button class="button-value" onclick="filterProduct('Python')">
+          Python
+        </button>
+        <button class="button-value" onclick="filterProduct('Javascript')">
+          Javascript
+        </button>
+        
+        
+        <button class="button-value" onclick="filterProduct('Google-Sign-in')">
+          Google Sign-in
+        </button>
+        <button class="button-value" onclick="filterProduct('Pricing-Panel')">
+          Pricing Panel Project
+        </button>
+      </div>
+      <div id="products">
+        
+
+      </div>
+    </div>
+    <!-- Script -->
+    <script src="script.js"></script>
+  </body>
+</html>
